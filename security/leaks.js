@@ -175,6 +175,7 @@ window.addEventListener('load', async () => {
     function download (data, name) {
         const a = document.createElement('a');
         const url = window.URL.createObjectURL(new Blob([data], { type: 'application/json' }));
+        // document.body.innerText = data; // uncomment this to download results on Android, iOS sim, etc
         a.href = url;
         a.download = `${name}.json`;
 
