@@ -1,0 +1,228 @@
+{
+  "page": "security-js-leaks",
+  "date": "Thu, 05 Oct 2023 20:29:17 GMT",
+  "reference_engine": "safari_14",
+  "added": [
+    {
+      "name": "window.browser",
+      "writable": true,
+      "enumerable": true,
+      "configurable": true,
+      "type": "object",
+      "properties": {
+        "runtime": {
+          "writable": false,
+          "enumerable": false,
+          "configurable": true,
+          "type": "object",
+          "properties": {
+            "connect": {
+              "type": "function",
+              "value": "function connect() {\n    [native code]\n}"
+            },
+            "sendMessage": {
+              "type": "function",
+              "value": "function sendMessage() {\n    [native code]\n}"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "window.clientInformation.hardwareConcurrency",
+      "type": "number"
+    },
+    {
+      "name": "window.clientInformation.mediaCapabilities.encodingInfo",
+      "type": "function",
+      "value": "function encodingInfo() {\n    [native code]\n}"
+    },
+    {
+      "name": "window.clientInformation.mediaSession",
+      "type": "object",
+      "properties": {
+        "callActionHandler": {
+          "type": "function",
+          "value": "function callActionHandler() {\n    [native code]\n}"
+        },
+        "metadata": {
+          "type": "object"
+        },
+        "playbackState": {
+          "type": "string"
+        },
+        "setActionHandler": {
+          "type": "function",
+          "value": "function setActionHandler() {\n    [native code]\n}"
+        },
+        "setPositionState": {
+          "type": "function",
+          "value": "function setPositionState() {\n    [native code]\n}"
+        }
+      }
+    },
+    {
+      "name": "window.clientInformation.standalone",
+      "type": "boolean"
+    },
+    {
+      "name": "window.createImageBitmap",
+      "value": "function createImageBitmap() {\n    [native code]\n}",
+      "writable": true,
+      "enumerable": true,
+      "configurable": true,
+      "type": "function"
+    },
+    {
+      "name": "window.crossOriginIsolated",
+      "enumerable": true,
+      "configurable": true,
+      "type": "boolean"
+    },
+    {
+      "name": "window.navigator.hardwareConcurrency",
+      "type": "number"
+    },
+    {
+      "name": "window.navigator.mediaSession",
+      "type": "object"
+    },
+    {
+      "name": "window.navigator.standalone",
+      "type": "boolean"
+    },
+    {
+      "name": "window.oncancel",
+      "enumerable": true,
+      "configurable": true,
+      "type": "object"
+    },
+    {
+      "name": "window.onclose",
+      "enumerable": true,
+      "configurable": true,
+      "type": "object"
+    },
+    {
+      "name": "window.onformdata",
+      "enumerable": true,
+      "configurable": true,
+      "type": "object"
+    },
+    {
+      "name": "window.onorientationchange",
+      "enumerable": true,
+      "configurable": true,
+      "type": "object"
+    },
+    {
+      "name": "window.onsecuritypolicyviolation",
+      "enumerable": true,
+      "configurable": true,
+      "type": "object"
+    },
+    {
+      "name": "window.orientation",
+      "enumerable": true,
+      "configurable": true,
+      "type": "number"
+    },
+    {
+      "name": "window.performance.timeOrigin",
+      "type": "number"
+    },
+    {
+      "name": "window.reportError",
+      "value": "function reportError() {\n    [native code]\n}",
+      "writable": true,
+      "enumerable": true,
+      "configurable": true,
+      "type": "function"
+    },
+    {
+      "name": "window.structuredClone",
+      "value": "function structuredClone() {\n    [native code]\n}",
+      "writable": true,
+      "enumerable": true,
+      "configurable": true,
+      "type": "function"
+    }
+  ],
+  "removed": [
+    {
+      "name": "window.clientInformation.mimeTypes.0"
+    },
+    {
+      "name": "window.clientInformation.mimeTypes.1"
+    },
+    {
+      "name": "window.clientInformation.mimeTypes.2"
+    },
+    {
+      "name": "window.clientInformation.plugins.0"
+    },
+    {
+      "name": "window.clientInformation.canShare"
+    },
+    {
+      "name": "window.clientInformation.clipboard"
+    },
+    {
+      "name": "window.clientInformation.credentials"
+    },
+    {
+      "name": "window.clientInformation.mediaDevices"
+    },
+    {
+      "name": "window.clientInformation.serviceWorker"
+    },
+    {
+      "name": "window.clientInformation.share"
+    },
+    {
+      "name": "window.crypto.subtle"
+    },
+    {
+      "name": "window.navigator.canShare"
+    },
+    {
+      "name": "window.navigator.clipboard"
+    },
+    {
+      "name": "window.navigator.credentials"
+    },
+    {
+      "name": "window.navigator.mediaDevices"
+    },
+    {
+      "name": "window.navigator.serviceWorker"
+    },
+    {
+      "name": "window.navigator.share"
+    },
+    {
+      "name": "window.safari"
+    },
+    {
+      "name": "window.showModalDialog"
+    }
+  ],
+  "changed": [
+    {
+      "name": "window.clientInformation.languages.0",
+      "value": "en-US",
+      "writable": false,
+      "enumerable": true,
+      "configurable": false,
+      "type": "string"
+    },
+    {
+      "name": "window.navigator.languages.0",
+      "value": "en-US",
+      "writable": false,
+      "enumerable": true,
+      "configurable": false,
+      "type": "string"
+    }
+  ]
+}
